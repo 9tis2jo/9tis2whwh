@@ -364,7 +364,7 @@
                     <input type="email" class="space_regist"><br>
                     <label for="">우편번호<span>*</span></label>
                     <input type="text" id="sample4_postcode" placeholder="우편번호">
-                    <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"style="margin-bottom: 15px">
+                    <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기" style="margin-bottom: 15px;">
                     <input type="text" id="sample4_roadAddress" placeholder="도로명주소">
                     <span id="guide" style="color:#999;display:none"></span>
                     <input type="text" id="sample4_detailAddress" placeholder="상세주소">
