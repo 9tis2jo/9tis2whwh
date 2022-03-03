@@ -298,7 +298,7 @@
    <div class="aa-catg-head-banner-area">
      <div class="container">
       <div class="aa-catg-head-banner-content">
-        <h2>상품관리</h2>
+        <h2>상품등록</h2>
       </div>
      </div>
    </div>
@@ -306,205 +306,233 @@
   <!-- / catg header banner section -->
 
  <!-- Cart view section -->
-<div class="sc-jIyBzM gOaPOr">
-  <div class="sc-fVHxE hpKwgi">
-    <nav class="sc-idjmjb glWFnf">
-      <div class="sc-AqAhp fyfAiP"><a class="sc-fHlXLc dzHOHw" href="/products/new">상품등록</a></div>
-      <div class="sc-AqAhp hQEGUF"><a class="sc-fHlXLc dzHOHw" href="/products/manage">상품관리</a></div>
-      <div class="sc-AqAhp hQEGUF"><a href="https://pay2.bunjang.co.kr?tab=purchases" target="_blank"
-          rel="noopener noreferrer" class="sc-iKpIOp eHgDUx">구매/판매 내역</a></div>
-    </nav>
-  </div>
-  <div class="sc-hlELIx mCnrk">
-    <main class="sc-erOsFi erTKwf">
-      <section class="sc-eGXxtx dAQnYb">
-        <h2>기본정보<span>*필수항목</span></h2>
-        <ul class="sc-eetwQk pPWss">
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc icTXTK">상품이미지<span>*</span><small>(0/12)</small></div>
-            <div class="sc-fdJbru lhSEWN">
-              <ul class="sc-cClmTo dHLNTh">
-                <li class="sc-cZLAbK dkAkSi">이미지 등록<input type="file" accept="image/jpg, image/jpeg, image/png"
-                    multiple=""></li>
-              </ul>
-              <div class="sc-kOCNXg ksQfBV"><b>* 상품 이미지는 640x640에 최적화 되어 있습니다.</b><br>- 이미지는 상품등록 시 정사각형으로 짤려서
-                등록됩니다.<br>- 이미지를 클릭 할 경우 원본이미지를 확인할 수 있습니다.<br>- 이미지를 클릭 후 이동하여 등록순서를 변경할 수 있습니다.<br>- 큰 이미지일경우 이미지가 깨지는
-                경우가 발생할 수 있습니다.<br>최대 지원 사이즈인 640 X 640 으로 리사이즈 해서 올려주세요.(개당 이미지 최대 10M)</div>
-              <div class="sc-jwKygS fuybda">
-                <div class="sc-eQGPmX hBBOjs"><button type="button" class="sc-dAOnuy gCcDDI"><img
-                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABACAYAAACjgtGkAAAAAXNSR0IArs4c6QAAAolJREFUeAHl20tSxCAQANCJW12ql3DtKTxE9GQ6h/AU7j2EutT12J1qUowhCZ/+AFLFgIEU9pvApjPDAcrpdLqH5gHqJ9TjMAzf0HZfIO4rCHKEegP1FeJ+u6Co36H9oIGRJtJQn80fDIwdDQ6DCxcmXEIftW6hdv2kBDBwV/ygxQyCf/wHlC2MBUjvKHsYQZBeUWIwVkF6Q4nF2ATpBSUFYxekdZRUjCiQVlFyMKJBWkPJxUgCaQWlBCMZpHaUUowskFpRODCyQWpD4cIoAqkFhROjGMQahRuDBcQKRQKDDUQbRQqDFUQLRRKDHUQaRRpDBEQKRQNDDIQbRQtDFIQLRRNDHKQURRtDBSQXxQJDDSQVxQpDFSQWxRJDHWQPxRrDBGQNBa9DcYlnzLXO6cVpROnjLJWptOa0DDwNfi75i9a+htYMA/8HMxBcnFCeoIsQWBDm2SWepyvKH+51COVl5+VCX0jo2nyDdMcMxDtA8enAJwMr9kcag65+Mfk2PAx8c2c6Myh08/dT1EFCGO7MgDH/oDV5aUcVZAvDbQ5rFDWQGIwaUFRAUjCsUcRBcjAsUURBSjCsUMRAODAsUERAODG0UdhBJDA0UVhBJDG0UNhANDA0UFhANDGkUYpBLDAkUYpALDGkULJBasCQQMkCqQmDGyUZpEYMTpQkkJoxuFCiQVrA4ECJAmkJoxRlF6RFjBKUTZCWMXJRVkF6wMhBCSaqesJAFEpzHKGLOSDMBY0QI6Y8FmUBQhNdFt7lRqYf+S7ubuiCh4IxIcpjCOVsy9CER7oBb3xxSSTod1H2YpxB9iZ2oUFBbMU6gWxN6AnCj2UtZneG3MFk3FddbhMfwvUDZwoaHH4B+xHVOFecBB4AAAAASUVORK5CYII="
-                      width="34" height="32" alt="닫기 버튼 아이콘"></button>
-                  <div class="sc-cSYcjD fVHGdp">
-                    <div class="sc-gjAXCV foQbbV">상품이미지</div>
-                    <div class="sc-dOkuiw cuchOe"></div>
-                    <div class="sc-hZeNU bmfKXo"></div>
+<section id="cart-view">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sub-menu-1">
+          <nav class="sub-menu-1-1">
+            <div class="sub-menu-1-1-1"><a href="product-registration.jsp">상품등록</a></div>
+            <div class="sub-menu-1-1-1"><a href="product-management.jsp">상품관리</a></div>
+            <div class="sub-menu-1-1-1"><a href="transaction-history.jsp" >구매/판매 내역</a></div>
+          </nav>
+        </div>
+        <div class="sub-title-1">
+          <main class="sub-title-1-1">
+            <div class="sub-title-1-1-1">
+              <h2>기본정보<span>*필수항목</span></h2>
+              <ul class="sub-main">
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">상품이미지<span>*</span><small>(0/12)</small></div>
+                  <div class="sub-main-1-2">
+                    <ul class="sub-main-1-2-1">
+                      <li class="sub-main-1-2-1-1">이미지 등록<input type="file" accept="image/jpg, image/jpeg, image/png"
+                          multiple=""></li>
+                    </ul>
+                    <div class="sc-kOCNXg ksQfBV">
+	                    <b>* 상품 이미지는 640x640에 최적화 되어 있습니다.</b>
+	                    <br>- 이미지는 상품등록 시 정사각형으로 짤려서등록됩니다.
+	                    <br>- 이미지를 클릭 할 경우 원본이미지를 확인할 수 있습니다.
+	                    <br>- 이미지를 클릭 후 이동하여 등록순서를 변경할 수 있습니다.
+	                    <br>- 큰 이미지일경우 이미지가 깨지는 경우가 발생할 수 있습니다.
+	                    <br>최대 지원 사이즈인 640 X 640 으로 리사이즈 해서 올려주세요.(개당 이미지 최대 10M)
+                    </div>
+                    <!-- <div class="sc-jwKygS fuybda">
+                      <div class="sc-eQGPmX hBBOjs"><button type="button" class="sc-dAOnuy gCcDDI"><img
+                            src=""
+                            width="34" height="32" alt="닫기 버튼 아이콘"></button>
+                        <div class="sc-cSYcjD fVHGdp">
+                          <div class="sc-gjAXCV foQbbV">상품이미지</div>
+                          <div class="sc-dOkuiw cuchOe"></div>
+                          <div class="sc-hZeNU bmfKXo"></div>
+                        </div>
+                      </div>
+                    </div> -->
                   </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc fFLTCi">제목<span>*</span></div>
-            <div class="sc-fdJbru lhSEWN">
-              <div class="sc-hmyDHa lmzEGH">
-                <div class="sc-dYcyhn gknpN"><input type="text" placeholder="상품 제목을 입력해주세요." class="sc-jTNJqp jcrNYi"
-                    value=""><a href="https://help.bunjang.co.kr/faq/2/220" target="_blank">거래금지 품목</a></div>
-                <div class="sc-fAfrNB byIHnq">0/40</div>
-              </div>
-            </div>
-          </li>
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc jERTnV">카테고리<span>*</span></div>
-            <div class="sc-fdJbru lhSEWN">
-              <div class="sc-fxgLge eZXISU">
-                <div class="sc-hDgvsY dyGMPG">
-                  <ul class="sc-gtXRHa blTxHK">
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">여성의류</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">남성의류</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">신발</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">가방</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">시계/쥬얼리</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">패션 액세서리</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">디지털/가전</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">스포츠/레저</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">차량/오토바이</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">스타굿즈</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">키덜트</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">예술/희귀/수집품</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">음반/악기</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">도서/티켓/문구</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">뷰티/미용</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">가구/인테리어</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">생활/가공식품</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">유아동/출산</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">반려동물용품</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">기타</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">지역 서비스</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">원룸/함께살아요</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">번개나눔</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">구인구직</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">재능</button></li>
-                    <li class="sc-fyjYeE jIOHwG"><button type="button" class="sc-ixltIz iEPSCX">커뮤니티</button></li>
-                  </ul>
-                </div>
-                <div class="sc-hDgvsY dyGMPG">중분류 선택</div>
-                <div class="sc-hDgvsY dyGMPG">소분류 선택</div>
-              </div>
-              <h3 class="sc-bWjmDF bUJhwz">선택한 카테고리 : <b></b></h3>
-            </div>
-          </li>
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc fFLTCi">거래지역<span>*</span></div>
-            <div class="sc-fdJbru lhSEWN">
-              <div class="sc-MKjYC gSSZou"><button type="button" class="sc-bQduHL dOgdyz">내 위치</button><button
-                  type="button" class="sc-bQduHL dOgdyz">최근 지역</button><button type="button" class="sc-bQduHL dOgdyz">주소
-                  검색</button><button type="button" class="sc-bQduHL dOgdyz">지역설정안함</button></div><input readonly=""
-                placeholder="선호 거래 지역을 검색해주세요." class="sc-iUpOdG gqalHj" value="지역설정안함">
-            </div>
-          </li>
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc tUmmy">상태<span>*</span></div>
-            <div class="sc-fdJbru lhSEWN">
-              <div class="sc-csSMhA dVmQdR"><label for="중고상품" class="sc-bscRGj jObBkF"><input id="중고상품" type="radio"
-                    value="0" checked="">중고상품</label><label for="새상품" class="sc-bscRGj hsSwto"><input id="새상품"
-                    type="radio" value="0">새상품</label></div>
-            </div>
-          </li>
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc tUmmy">교환<span>*</span></div>
-            <div class="sc-fdJbru lhSEWN">
-              <div class="sc-csSMhA dVmQdR"><label for="교환불가" class="sc-bscRGj jObBkF"><input id="교환불가" type="radio"
-                    value="0" checked="">교환불가</label><label for="교환가능" class="sc-bscRGj hsSwto"><input id="교환가능"
-                    type="radio" value="0">교환가능</label></div>
-            </div>
-          </li>
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc fFLTCi">가격<span>*</span></div>
-            <div class="sc-fdJbru lhSEWN">
-              <div class="sc-kGeDwz ektOSj"><input type="text" placeholder="숫자만 입력해주세요." class="sc-hgeeVt cOoyPc"
-                  value="">원</div>
-              <div class="sc-gwZsXD kOeYrr">
-                <div class="sc-jJkQYJ eILUaf"><label for="freesShipping" class="sc-cKZAiZ fyMiMw"><input
-                      id="freesShipping" type="checkbox">배송비 포함</label></div>
-              </div>
-            </div>
-          </li>
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc hGxtuw">설명<span>*</span></div>
-            <div class="sc-fdJbru lhSEWN"><textarea placeholder="상품 설명을 입력해주세요. (10글자 이상)" rows="6"
-                class="sc-kOnlKp jOtnbk"></textarea>
-              <div class="sc-klSiHT iYKDHV"><span>혹시 <a href="https://help.bunjang.co.kr/notice/607"
-                    target="_blank">카카오톡 ID</a>를 적으셨나요?</span>
-                <div class="sc-bWFPNQ giIEzN">0/2000</div>
-              </div>
-            </div>
-          </li>
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc hGxtuw">연관태그</div>
-            <div class="sc-fdJbru lhSEWN">
-              <div class="sc-cANqwJ huTDHb">
-                <div class="sc-clWJBl drxDtL">
-                  <div class="sc-ijhsb dlIyJJ"><input type="text" placeholder="연관태그를 입력해주세요. (최대 5개)" value=""></div>
-                </div>
-              </div>
-              <ul class="sc-kqEXUp hGeiE">
-                <li>
-                  <p>태그는 띄어쓰기로 구분되며 최대 9자까지 입력할 수 있습니다. </p>
                 </li>
-                <li>
-                  <p>태그는 검색의 부가정보로 사용 되지만, 검색 결과 노출을 보장하지는 않습니다.</p>
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">제목<span>*</span></div>
+                  <div class="sub-main-1-3">
+                    <div class="sub-main-1-3-1">
+                      <div class="sub-main-1-3-1-1"><input type="text" placeholder="상품 제목을 입력해주세요."
+                          class="sc-jTNJqp jcrNYi" value=""></div>
+                      <div class="sub-main-1-3-1-2">0/40</div>
+                    </div>
+                  </div>
                 </li>
-                <li>
-                  <p>검색 광고는 태그정보를 기준으로 노출됩니다.</p>
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">카테고리<span>*</span></div>
+                  <div class="sub-main-1-4">
+                    <div class="sub-main-1-4-1">
+                      <div class="sub-main-1-4-1-1">
+                        <ul class="sub-main-1-4-1-1-1">
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">여성의류</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">남성의류</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">신발</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">가방</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">시계/쥬얼리</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">패션 액세서리</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">디지털/가전</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">스포츠/레저</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">차량/오토바이</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">스타굿즈</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">키덜트</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">예술/희귀/수집품</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">음반/악기</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">도서/티켓/문구</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">뷰티/미용</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">가구/인테리어</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">생활/가공식품</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">유아동/출산</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">반려동물용품</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">기타</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">지역 서비스</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">원룸/함께살아요</button>
+                          </li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">번개나눔</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">구인구직</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">재능</button></li>
+                          <li class="sub-main-1-4-1-1-1-1"><button type="button" class="sc-ixltIz iEPSCX">커뮤니티</button></li>
+                        </ul>
+                      </div>
+                      <div class="sub-main-1-4-1-2">중분류 선택</div>
+                      <div class="sub-main-1-4-1-3">소분류 선택</div>
+                    </div>
+                    <h3 class="sc-bWjmDF bUJhwz">선택한 카테고리 : <b></b></h3>
+                  </div>
                 </li>
-                <li>
-                  <p>상품과 직접 관련이 없는 다른 상품명, 브랜드, 스팸성 키워드 등을 입력하면 노출이 중단되거나 상품이 삭제될 수 있습니다.</p>
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">거래지역<span>*</span></div>
+                  <div class="sc-fdJbru lhSEWN">
+                    <div class="sc-MKjYC gSSZou"><button type="button" class="sc-bQduHL dOgdyz">내 위치</button><button
+                        type="button" class="sc-bQduHL dOgdyz">최근 지역</button><button type="button"
+                        class="sc-bQduHL dOgdyz">주소
+                        검색</button><button type="button" class="sc-bQduHL dOgdyz">지역설정안함</button></div><input
+                      readonly="" placeholder="선호 거래 지역을 검색해주세요." class="sc-iUpOdG gqalHj" value="지역설정안함">
+                  </div>
+                </li>
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">상태<span>*</span></div>
+                  <div class="sc-fdJbru lhSEWN">
+                    <div class="sc-csSMhA dVmQdR"><label for="중고상품" class="sc-bscRGj jObBkF"><input id="중고상품"
+                          type="radio" value="0" checked="">중고상품</label><label for="새상품" class="sc-bscRGj hsSwto"><input
+                          id="새상품" type="radio" value="0">새상품</label></div>
+                  </div>
+                </li>
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">교환<span>*</span></div>
+                  <div class="sc-fdJbru lhSEWN">
+                    <div class="sc-csSMhA dVmQdR"><label for="교환불가" class="sc-bscRGj jObBkF"><input id="교환불가"
+                          type="radio" value="0" checked="">교환불가</label><label for="교환가능"
+                        class="sc-bscRGj hsSwto"><input id="교환가능" type="radio" value="0">교환가능</label></div>
+                  </div>
+                </li>
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">가격<span>*</span></div>
+                  <div class="sc-fdJbru lhSEWN">
+                    <div class="sc-kGeDwz ektOSj"><input type="text" placeholder="숫자만 입력해주세요." class="sc-hgeeVt cOoyPc"
+                        value="">원</div>
+                    <div class="sc-gwZsXD kOeYrr">
+                      <div class="sc-jJkQYJ eILUaf"><label for="freesShipping" class="sc-cKZAiZ fyMiMw"><input
+                            id="freesShipping" type="checkbox">배송비 포함</label></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">설명<span>*</span></div>
+                  <div class="sc-fdJbru lhSEWN"><textarea placeholder="상품 설명을 입력해주세요. (10글자 이상)" rows="6"
+                      class="sc-kOnlKp jOtnbk"></textarea>
+                    <div class="sc-klSiHT iYKDHV"><span>혹시 <a href="https://help.bunjang.co.kr/notice/607"
+                          target="_blank">카카오톡 ID</a>를 적으셨나요?</span>
+                      <div class="sc-bWFPNQ giIEzN">0/2000</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">연관태그</div>
+                  <div class="sc-fdJbru lhSEWN">
+                    <div class="sc-cANqwJ huTDHb">
+                      <div class="sc-clWJBl drxDtL">
+                        <div class="sc-ijhsb dlIyJJ"><input type="text" placeholder="연관태그를 입력해주세요. (최대 5개)" value="">
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="sc-kqEXUp hGeiE">
+                      <li>
+                        <p>태그는 띄어쓰기로 구분되며 최대 9자까지 입력할 수 있습니다. </p>
+                      </li>
+                      <li>
+                        <p>태그는 검색의 부가정보로 사용 되지만, 검색 결과 노출을 보장하지는 않습니다.</p>
+                      </li>
+                      <li>
+                        <p>검색 광고는 태그정보를 기준으로 노출됩니다.</p>
+                      </li>
+                      <li>
+                        <p>상품과 직접 관련이 없는 다른 상품명, 브랜드, 스팸성 키워드 등을 입력하면 노출이 중단되거나 상품이 삭제될 수 있습니다.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sub-main-1">
+                  <div class="sub-main-1-1">수량</div>
+                  <div class="sc-fdJbru lhSEWN">
+                    <div class="sc-cBOTKl iLsYdV"><input type="text" class="sc-hkHFWD wUvmE" value="1">개</div>
+                  </div>
                 </li>
               </ul>
             </div>
-          </li>
-          <li class="sc-cIwbeI jRHmma">
-            <div class="sc-dUcZlc tUmmy">수량</div>
-            <div class="sc-fdJbru lhSEWN">
-              <div class="sc-cBOTKl iLsYdV"><input type="text" class="sc-hkHFWD wUvmE" value="1">개</div>
+
+            <div class="sc-jwKygS gSsteC">
+              <section class="sc-bvCTgw hJfwZm">
+                <header>최근 지역<button type="button" class="sc-gCKARq dcseLf"></button></header>
+                <ul></ul>
+              </section>
             </div>
-          </li>
-        </ul>
-      </section>
-      
-      <div class="sc-jwKygS gSsteC">
-        <section class="sc-bvCTgw hJfwZm">
-          <header>최근 지역<button type="button" class="sc-gCKARq dcseLf"></button></header>
-          <ul></ul>
-        </section>
-      </div>
-      <div class="sc-jwKygS gSsteC">
-        <section class="sc-fjdPjP fWuCfP">
-          <header>주소 검색<button type="button" class="sc-ePAWwb kqgQEL"></button></header>
-          <form class="sc-ldcLGC wNlOp"><input type="text" placeholder="동(읍/면/리) 입력해주세요." value=""><button type="submit"
-              class="sc-fObBmV dsQBTu"></button></form>
-        </section>
-      </div>
-    </main>
-    <footer class="sc-iUVpnZ jkAeWo">
-      <div class="sc-goFBvh iRIYrs"><button type="button" class="sc-feWbDf gEWDoq"></button></div>
-    </footer>
-    
-    <div class="sc-jwKygS gSsteC">
-      <div class="sc-dchYKM kZaMNN"><button class="sc-dhVevo kaxRgQ"><img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAASFJREFUWAnl1csNgzAQRVFit0EXSOzSRrpINekibWTnMiJRBih6SIP4xJ4Zj00WYcFHDr4HIuGm67pn3/fX5qQNLTQp57z3j2maTkEgjhaaBPDDMLzbtg0YwBHXNFjySHHn3C2E8KK5PU5qI2JxtGdATUQqvgHUQHDxA6AkQhL/CiiBkMajAAtCE08CchDaOAvQIHLiIoAEkRsXA1IISxzzXrDTbOsg7sMnfP951cynBmByQuDcEp/vx+6Xm/oN0NPjyQG3/gXLYiR5C+s4ltQSq6gYsI8T2IoQAWLxEggWwMWtiCRAGrcgogBtPBfxFZAbz0EcANa4FrEBlIprEAugdFyKmAG14hKErx3nEG4cx7t1SaUId8T6gRaa3G//Z/wDWQEf334CcmkAAAAASUVORK5CYII="
-            width="16" height="16" alt="닫기 버튼 이미지"></button>
-        <div class="sc-jLrYHE gbbWCb"><img src="/pc-static/media/img-app-summary.4ae41040.png" width="300" height="275"
-            alt="상픔등록 완료 이미지" class="sc-fqCOlO ivsCcH">
-          <div class="sc-iBfVdv kroIzw">
-            <div class="sc-BOulX jBPTgP">상품이 등록되었습니다!</div>
-            <button type="button" class="sc-eklfrZ iRaGGh">등록상품 보기</button>
+            <div class="sc-jwKygS gSsteC">
+              <section class="sc-fjdPjP fWuCfP">
+                <header>주소 검색<button type="button" class="sc-ePAWwb kqgQEL"></button></header>
+                <form class="sc-ldcLGC wNlOp"><input type="text" placeholder="동(읍/면/리) 입력해주세요." value=""><button
+                    type="submit" class="sc-fObBmV dsQBTu"></button></form>
+              </section>
+            </div>
+          </main>
+          <footer class="sc-iUVpnZ jkAeWo">
+            <div class="sc-goFBvh iRIYrs"><button type="button" class="sc-feWbDf gEWDoq"></button></div>
+          </footer>
+
+          <div class="sc-jwKygS gSsteC">
+            <div class="sc-dchYKM kZaMNN"><button class="sc-dhVevo kaxRgQ"><img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAASFJREFUWAnl1csNgzAQRVFit0EXSOzSRrpINekibWTnMiJRBih6SIP4xJ4Zj00WYcFHDr4HIuGm67pn3/fX5qQNLTQp57z3j2maTkEgjhaaBPDDMLzbtg0YwBHXNFjySHHn3C2E8KK5PU5qI2JxtGdATUQqvgHUQHDxA6AkQhL/CiiBkMajAAtCE08CchDaOAvQIHLiIoAEkRsXA1IISxzzXrDTbOsg7sMnfP951cynBmByQuDcEp/vx+6Xm/oN0NPjyQG3/gXLYiR5C+s4ltQSq6gYsI8T2IoQAWLxEggWwMWtiCRAGrcgogBtPBfxFZAbz0EcANa4FrEBlIprEAugdFyKmAG14hKErx3nEG4cx7t1SaUId8T6gRaa3G//Z/wDWQEf334CcmkAAAAASUVORK5CYII="
+                  width="16" height="16" alt="닫기 버튼 이미지"></button>
+              <div class="sc-jLrYHE gbbWCb"><img src="/pc-static/media/img-app-summary.4ae41040.png" width="300"
+                  height="275" alt="상픔등록 완료 이미지" class="sc-fqCOlO ivsCcH">
+                <div class="sc-iBfVdv kroIzw">
+                  <div class="sc-BOulX jBPTgP">상품이 등록되었습니다!</div>
+                  <button type="button" class="sc-eklfrZ iRaGGh">등록상품 보기</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
+       
  <!-- / Cart view section -->
 
   <!-- footer -->  
