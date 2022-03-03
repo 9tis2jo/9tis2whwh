@@ -184,6 +184,90 @@ img {
   background-color: #000;
   color: #fff;
 }
+/*찬규님 추가CSS*/
+.retouch-section {
+  width: 100%;
+  height: 70%;
+  display: block;
+  display: flex;
+}
+
+.re-table {
+  width: 60%;
+  margin: 0 auto;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.rr-header-title {
+  margin: 30px 20%;
+  color: #333;
+}
+
+.re-table-body>tr:nth-child(1){
+  height: 250px;
+}
+
+.profile-retouch-head {
+  width: 160px;
+  height: 130px;
+  text-align: center;
+  margin-top: 0;
+  
+  border-right: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f9f9f9;
+  
+}
+
+.profile-retouch-body {
+  border-top: 1px solid #e5e5e5;
+}
+.table-retouch-body {
+  margin-left: 25px;
+}
+.profile_photo {
+  border-radius: 100%;
+  margin: 10px 0;
+}
+.profile_photo img {
+  
+  height: 170px;
+  object-fit: cover;
+}
+
+.retouch-btn_area {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.retouch-btn_area button{
+  margin-right: 10px;
+  padding: 2px 10px;
+}
+
+.table-retouch-body-input>input:nth-child(1) {
+  margin-right: 10px;
+}
+
+.retouch-dir {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: salmon;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.myinfo-dir {
+  font-weight: bold;
+  color: darkred;
+}
+.myinfo-dir:hover{
+  color: orange;
+}
+
 
 /* LAYOUTS - Page layout styles */
 /*==================
