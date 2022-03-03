@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>회원 정보</title>
+    <title>회원 정보 수정</title>
     
     <!-- Font awesome -->
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -339,67 +339,46 @@
   <!-- / catg header banner section -->
 
  <!-- Cart view section -->
- <header class="rr-header-title">
-    <h1>프로필 수정</h1>
-</header>
-
-<section class="retouch-section">
-    <table class="re-table">
-        <colgroup>
-            <col style="width: 22%;">
-            <col>
-        </colgroup>
-        <tbody class="re-table-body">
-            <tr>
-                <th scope="row" class="profile-retouch-head">
-                    <div class="retouch-table-title">프로필 사진</div>
-                </th>
-                <td class="profile-retouch-body">
-                    <div class="table-retouch-body">
-                        <div class="profile_photo">
-                            <img src="/dailyShop/img/man/polo-shirt-1.png" alt="#">
-                        </div>
-                        <div class="retouch-btn_area">
-                            <button class="profile_change_btn">사진변경</button>
-                            <button class="re_submit">적용</button>
-                            <button class="re_del">삭제</button>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row" class="profile-retouch-head">
-                    <div class="retouch-table-title">아이디</div>
-                </th>
-                <td class="profile-retouch-body">
-                    <div class="table-retouch-body">
-                        <div class="table-retouch-body-input">
-                            <input type="text" value="기존 아이디">
-                            <input type="submit" value="적용">
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row" class="profile-retouch-head">
-                    <div class="retouch-table-title">닉네임</div>
-                </th>
-                <td class="profile-retouch-body">
-                    <div class="table-retouch-body">
-                        <div class="table-retouch-body-input">
-                            <input type="text" value="기존 닉네임">
-                            <input type="submit" value="적용">
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</section>
-<hr>
-<div class="retouch-dir">
-    <a href="MyInfo.jsp" class="myinfo-dir">회원정보 페이지 바로가기</a>
-</div>
+  <section id="aa-myaccount">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+        <div class="aa-myaccount-area">         
+            <div class="row">
+              
+              <div class="col-md-6" style="float: none; margin:0 auto;">
+                <div class="aa-myaccount-register">                 
+                 <h4>개인정보 수정</h4>
+                 <form action="" class="aa-login-form">
+                    <label for="">아이디<span>*</span></label>
+                    <input type="text" value="아이디" readonly>
+                    <label for="">비밀번호<span>*</span></label>
+                    <input type="password" value="비밀번호" readonly>
+                    <label for="">이름<span>*</span></label>
+                    <input type="text" value="이름" readonly>
+                    <label for="">생년월일<span>*</span></label>
+                    <input type="date" class="space_regist"><br>
+                    <label for="">전화번호<span>*</span></label>
+                    <input type="tel" class="space_regist"><br>
+                    <label for="">이메일<span>*</span></label>
+                    <input type="email" class="space_regist"><br>
+                    <label for="">우편번호<span>*</span></label>
+                    <input type="text" id="sample4_postcode" placeholder="우편번호">
+                    <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"style="margin-bottom: 15px">
+                    <input type="text" id="sample4_roadAddress" placeholder="도로명주소">
+                    <span id="guide" style="color:#999;display:none"></span>
+                    <input type="text" id="sample4_detailAddress" placeholder="상세주소">
+                    <input type="text" id="sample4_extraAddress" placeholder="참고항목">
+                    <button type="submit" class="aa-browse-btn">수정</button>                    
+                  </form>
+                </div>
+              </div>
+            </div>          
+         </div>
+       </div>
+     </div>
+   </div>
+   </section>
  <!-- / Cart view section -->
 
   <!-- footer -->  
