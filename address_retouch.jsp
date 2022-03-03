@@ -6,7 +6,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>프로필 수정 페이지</title>
+      <title>연락처 및 이메일 수정 페이지</title>
       <!-- Font awesome -->
       <link href="css/font-awesome.css" rel="stylesheet">
       <!-- Bootstrap -->
@@ -318,31 +318,14 @@
                 <col>
             </colgroup>
             <tbody class="re-table-body">
-                <tr class="profile-cell">
-                    <th scope="row" class="profile-retouch-head">
-                        <div class="retouch-table-title">프로필 사진</div>
-                    </th>
-                    <td class="profile-retouch-body">
-                        <div class="table-retouch-body">
-                            <div class="profile_photo">
-                                <img src="/dailyShop/img/man/polo-shirt-1.png" alt="#">
-                            </div>
-                            <div class="retouch-btn_area">
-                                <button class="rr-browse-btn">사진변경</button>
-                                <button class="rr-browse-btn">적용</button>
-                                <button class="rr-browse-btn">삭제</button>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
                 <tr>
                     <th scope="row" class="profile-retouch-head">
-                        <div class="retouch-table-title">아이디</div>
+                        <div class="retouch-table-title">휴대전화</div>
                     </th>
                     <td class="profile-retouch-body">
                         <div class="table-retouch-body">
                             <div class="table-retouch-body-input">
-                                <input type="text" value="기존 아이디">
+                                <input type="text" value="기존 번호">
                                 <input type="submit" class="rr-browse-btn" value="적용">
                             </div>
                         </div>
@@ -350,12 +333,31 @@
                 </tr>
                 <tr>
                     <th scope="row" class="profile-retouch-head">
-                        <div class="retouch-table-title">닉네임</div>
+                        <div class="retouch-table-title">연락처</div>
                     </th>
                     <td class="profile-retouch-body">
                         <div class="table-retouch-body">
                             <div class="table-retouch-body-input">
-                                <input type="text" value="기존 닉네임">
+                                <input type="text" value="기존 번호">
+                                <input type="submit" class="rr-browse-btn" value="적용">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row" class="profile-retouch-head">
+                        <div class="retouch-table-title">이메일</div>
+                    </th>
+                    <td class="profile-retouch-body">
+                        <div class="table-retouch-body">
+                            <div>
+                                <input type="text" value="기존 이메일"> @ 
+                                <select>
+                                  <option value="naver.com">naver.com</option>
+                                  <option value="daum.com">daum.com</option>
+                                  <option value="nate.com">nate.com</option>
+                                  <option value="gmail.com">gmail.com</option>
+                                </select>
                                 <input type="submit" class="rr-browse-btn" value="적용">
                             </div>
                         </div>

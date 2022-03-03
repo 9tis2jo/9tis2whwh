@@ -43,10 +43,6 @@ body {
   font-size: 16px;
   overflow-x: hidden;
 }
-body #retouch{
-  width: 100%;
-  height: 100%;
-}
 
 .no-padding {
   padding: 0;
@@ -137,11 +133,30 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+
+.rr-browse-btn{
+  display: inline-block;
+  background-color: #611122;
+  color: #FFF;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 0.5px solid #555;
+  margin-left: 10px;
+}
+
 .aa-browse-btn span {
   margin-left: 5px;
 }
 .aa-browse-btn:hover, .aa-browse-btn:focus {
   background-color: #fff;
+}
+.rr-browse-btn:hover, .aa-browse-btn:focus {
+  background-color: #fff;
+  color: #611122;
 }
 
 .aa-add-to-cart-btn {
@@ -193,6 +208,7 @@ img {
   height: 70%;
   display: block;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .re-table {
@@ -202,12 +218,21 @@ img {
   border-bottom: 1px solid #e5e5e5;
 }
 
+
 .rr-header-title {
   margin: 30px 20%;
   color: #333;
+  display: block;
+  position: relative;
+  top: 13px;
+}
+.rr-header-title .header-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
 }
 
-.re-table-body>tr:nth-child(1){
+.profile-cell{
   height: 250px;
 }
 
@@ -229,6 +254,7 @@ img {
 .table-retouch-body {
   margin-left: 25px;
 }
+
 .profile_photo {
   border-radius: 100%;
   margin: 10px 0;
@@ -249,8 +275,8 @@ img {
   padding: 2px 10px;
 }
 
-.table-retouch-body-input>input:nth-child(1) {
-  margin-right: 10px;
+.rr-bottom{
+  border-top: 1px solid #e5e5e5;
 }
 
 .retouch-dir {
@@ -258,18 +284,104 @@ img {
   height: 30px;
   text-align: center;
   line-height: 30px;
-  background-color: salmon;
-  border-radius: 10px;
-  margin: 0 auto;
+  background-color: #611122;
+  color: #FFF;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 0.5px solid #555;
+  margin: 30px auto;
 }
 
 .myinfo-dir {
   font-weight: bold;
-  color: darkred;
-}
-.myinfo-dir:hover{
   color: orange;
 }
+.myinfo-dir:hover{
+  color: wheat;
+}
+
+#rr-modal {
+  display: none;
+}
+
+#rr-modal.rr-on{
+  display: flex;
+}
+
+.rr-modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.rr-modal {
+  background: #611122;
+  padding: 30px;
+  border-radius: 10px;
+  width: 700px;
+  height: 600px;
+}
+.rr-modal-title {
+  text-align: center;
+  margin-bottom: 30px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: 200;
+  color: wheat;
+  
+}
+.rr-modal>button {
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: wheat;
+  position: relative;
+  border: 2px solid orange;
+  top: 230px;
+}
+.rr-modal .rr-modal-re1{
+  left: 10%;
+}
+.rr-modal .rr-modal-re2{
+  left: 20%;
+}
+.rr-modal .rr-modal-re3{
+  left: 30%;
+}
+
+.rr-modal>button {
+  color: salmon;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#rr-close-modal {
+  text-align: center;
+  color: wheat;
+  position: relative;
+  top: 50%;
+}
+.rr-close-modal-btn{
+  width: 75px;
+  height: 30px;
+  background-color: rgb(0, 78, 0);
+  border: 1px solid #222;
+  border-radius: 5px;
+}
+
 
 /* LAYOUTS - Page layout styles */
 /*==================
@@ -309,6 +421,7 @@ img {
   float: left;
   width: 100%;
 }
+
 
 #aa-header .aa-header-top {
   border-bottom: 1px solid #E8E8E8;
